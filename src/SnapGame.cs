@@ -25,7 +25,7 @@ SwinGame.LoadFontNamed ("GameFont", "Chunk Five Print.otf", 12);
 
 			if (SwinGame.KeyTyped (KeyCode.vk_SPACE))
 			{
-				myGame.FlipNextCard ();
+				myGame.Start ();
 			}
 		}
 
